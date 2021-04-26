@@ -6,7 +6,7 @@ Students sign up in small teams and are given a complex dataset and 48 hours to 
 My team won the best use of statistical software for our efforts at tackling the given problem. 
 
 
-## Data
+# Data
 
 The dataset was from the International Women's Rugby 7's team. It consisted of four csv files all containing different data. 
 
@@ -22,18 +22,18 @@ The dataset was from the International Women's Rugby 7's team. It consisted of f
 
 **Note:** The GPS dataset was very large, so it is left out of the data folder 
 
-## Our Approach 
+# Our Approach 
 
 Our approach with this data was to look into the players morning evaluation reports to determine if the players game performance corresponded with how they reported they felt. 
 
 
-## Procedures 
+# Procedures 
 
-### Self Evaluations 
+## Self Evaluations 
 
 We created a random forest to predict their overall rating on how they felt. We looked into the feature importance to see what features were playing the biggest role in how the players felt each morning. 
 
-### Looking into Performance 
+## Looking into Performance 
 
 * We chose one game to work with and first plotted the first ten seconds of the GPS data to track player movements. 
 * We then went and found a video of the beginning of the game to identify which players corresponded to the arbitrary ID numbers given in the dataset. 
